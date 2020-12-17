@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+.home {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home h1 {
+    margin: 2% 0 2% 0;
+}
+
+.home input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+}
