@@ -3,10 +3,12 @@
 <div class="register-page">
 <h1>Register</h1>
 
-<form action="/register" method="POST">
-    <input type="text" name="username" placeholder="Username">
-    <input type="text" name="password" id="" placeholder="Password">
+<form action="/register" method="POST" onsubmit="checker()">
+    <input type="email" name="username" id="username" placeholder="Username" autocomplete="off">
+    <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
     <input type="submit" value="Register">
 </form>
 
 </div>
+
+<%- include('partials/footer') -%>
